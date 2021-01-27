@@ -12,6 +12,7 @@ public class Library_System {
         ir.readFile();
         Scanner scr = new Scanner(System.in);
         do{
+            System.out.println("---------------Library System V1.1---------------");
             System.out.println(" 1 - Add a new Record of Book \n 2 - Available Books \n 3- Add new Student Record \n 4- Registered Students \n 5- Issue Books \n 6- Display Issue Record \n 7 - Exit");
             System.out.println("-------------------*---------------------");
             char input_case = scr.next().charAt(0);
